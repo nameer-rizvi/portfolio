@@ -410,6 +410,12 @@
         border: 1px solid var(--border);
       }
 
+      a.project-card {
+        color: unset;
+        text-decoration: unset;
+        cursor: pointer;
+      }
+
       .project-card {
         background: var(--bg);
         padding: 2rem;
@@ -417,7 +423,6 @@
         flex-direction: column;
         gap: 0.75rem;
         transition: background 0.25s;
-        cursor: default;
       }
       .project-card:hover {
         background: var(--surface);
@@ -630,12 +635,12 @@
             <div class="stat-label">Years exp.</div>
           </div>
           <div>
-            <div class="stat-num">78<span>%</span></div>
-            <div class="stat-label">Labor reduction</div>
-          </div>
-          <div>
             <div class="stat-num">949<span>k</span></div>
             <div class="stat-label">Users reached</div>
+          </div>
+          <div>
+            <div class="stat-num">3<span>M</span></div>
+            <div class="stat-label">Cups of coffee consumed</div>
           </div>
         </div>
       </div>
@@ -670,7 +675,8 @@
           <div class="skill-cell">
             <div class="skill-cat">Core Skills</div>
             <div class="skill-items">
-              REST APIs<br />Accessibility (WCAG)<br />Performance · Agile
+              REST APIs · AI Coding<br />Accessibility (WCAG)<br />Performance ·
+              Agile
             </div>
           </div>
         </div>
@@ -687,7 +693,7 @@
         <div class="exp-list">
           <div class="exp-item reveal">
             <div class="exp-meta">
-              <div class="exp-dates">Feb 2025 — Oct 2025</div>
+              <div class="exp-dates">Oct 2024 — Oct 2025</div>
               <div class="exp-company">BigBear.ai</div>
               <div class="exp-location">Ashburn, VA</div>
             </div>
@@ -718,7 +724,7 @@
 
           <div class="exp-item reveal">
             <div class="exp-meta">
-              <div class="exp-dates">Mar 2019 — Jan 2025</div>
+              <div class="exp-dates">Mar 2019 — Sep 2024</div>
               <div class="exp-company">Self-Employed</div>
               <div class="exp-location">Ashburn, VA</div>
             </div>
@@ -735,7 +741,7 @@
                   to 9.3k users with 16k events across 130 venues.
                 </li>
                 <li>
-                  Developed a USDA payment management system (React, AWS),
+                  Developed a FDA MQSA payment management system (React, AWS),
                   reducing manual processing labor by 78%.
                 </li>
                 <li>
@@ -792,7 +798,7 @@
           <h2 class="section-title">Featured Projects</h2>
         </div>
         <div class="projects-grid reveal">
-          <a class="project-card">
+          <a class="project-card" target="_blank" href="https://dcmusic.live/">
             <div class="project-tag">Music / Social</div>
             <div class="project-name">DC Music Live</div>
             <div class="project-metric">
@@ -810,24 +816,11 @@
             </div>
           </a>
 
-          <a class="project-card">
-            <div class="project-tag">Government / Civic</div>
-            <div class="project-name">USDA Payment System</div>
-            <div class="project-metric">
-              78%
-              <div class="project-metric-label">Labor reduction</div>
-            </div>
-            <div class="project-desc">
-              React-based payment management system that drastically cut manual
-              processing overhead for USDA.
-            </div>
-            <div class="project-stack">
-              <span class="stack-tag">React</span>
-              <span class="stack-tag">AWS</span>
-            </div>
-          </a>
-
-          <a class="project-card">
+          <a
+            class="project-card"
+            target="_blank"
+            href="https://thepulsegovcon.com/"
+          >
             <div class="project-tag">Government / Data</div>
             <div class="project-name">Part9 Platform</div>
             <div class="project-metric">
@@ -844,7 +837,11 @@
             </div>
           </a>
 
-          <a class="project-card">
+          <a
+            class="project-card"
+            target="_blank"
+            href="https://www.hirevets.gov/"
+          >
             <div class="project-tag">Government / Veterans</div>
             <div class="project-name">HIREVets.gov Portal</div>
             <div class="project-metric">
@@ -861,7 +858,11 @@
             </div>
           </a>
 
-          <a class="project-card">
+          <a
+            class="project-card"
+            target="_blank"
+            href="https://www.apprenticeship.gov/apprenticeship-job-finder"
+          >
             <div class="project-tag">Government / Education</div>
             <div class="project-name">Apprenticeship.gov</div>
             <div class="project-metric">
@@ -878,7 +879,11 @@
             </div>
           </a>
 
-          <a class="project-card">
+          <a
+            class="project-card"
+            target="_blank"
+            href="https://www.proofdistrict.com/"
+          >
             <div class="project-tag">Marketing / CMS</div>
             <div class="project-name">Proof District LLC</div>
             <div class="project-metric">
@@ -892,6 +897,24 @@
             <div class="project-stack">
               <span class="stack-tag">Next.js</span>
               <span class="stack-tag">Strapi</span>
+            </div>
+          </a>
+
+          <a class="project-card" target="_blank" href="https://uncookd.com/">
+            <div class="project-tag">Creative / Social</div>
+            <div class="project-name">Uncookd</div>
+            <div class="project-metric">
+              1.3k
+              <div class="project-metric-label">Published stories</div>
+            </div>
+            <div class="project-desc">
+              Social media website for users to read, write and share stories,
+              poems and creative writing.
+            </div>
+            <div class="project-stack">
+              <span class="stack-tag">React</span>
+              <span class="stack-tag">Express</span>
+              <span class="stack-tag">MySQL</span>
             </div>
           </a>
         </div>
