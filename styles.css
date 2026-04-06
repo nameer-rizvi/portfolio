@@ -555,6 +555,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 footer p {
   font-size: 12px;
